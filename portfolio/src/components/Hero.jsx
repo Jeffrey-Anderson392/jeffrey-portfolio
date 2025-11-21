@@ -45,8 +45,8 @@ const Hero = () => {
     type(); // start the typing effect
     }, []);
   return (
-    <div className='p-20 flex flex-col mt-32 space-y-6 text-blue-100'>
-        <div className="text-2xl ">I am Jeffrey Anderson</div>
+    <div id="home" className='p-20 flex flex-col mt-20 space-y-6 text-blue-100'>
+        <div className="text-2xl justify-center">I am Jeffrey Anderson</div>
         <div className="text-3xl">{currentText}</div>
     </div>
   )
