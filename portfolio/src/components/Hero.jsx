@@ -17,7 +17,7 @@ const Hero = () => {
         let currentString = typewriterMessages[currentStringIndex];
         const typingSpeed = 100; // typing speed
         const deletingSpeed = 50; // deleting speed
-        const delayBetweenMessages = 2500; // delay between messages 
+        const delayBetweenMessages = 2250; // delay between messages 
 
     function type() { 
         setCurrentText(currentString.substring(0, currentCharIndex ) + '_'); // cursor for typing effect
