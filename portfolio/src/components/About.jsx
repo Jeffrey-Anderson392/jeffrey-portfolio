@@ -27,7 +27,7 @@ const About = () => {
             Outside of tech, you'll usually find me playing video games, hanging out with friends, golfing, or listening to music. I'm big on self-improvement, staying curious, and trying to learn something new every day, whether it's related to programming or not. 
           </p> 
           <p> 
-            If you ever want to connect, feel free to reach out through LinkedIn or check out some of my work on GitHub. I'm always excited to meet new people, share ideas, and keep growing as a developer. 
+            If you ever want to connect, feel free to reach out through <a href="https://www.linkedin.com/in/jeffrey392/" className='text-cyan-400 hover:text-cyan-300'>LinkedIn</a> or check out some of my work on <a href="https://github.com/Jeffrey-Anderson392" className='text-cyan-400 hover:text-cyan-300'>GitHub</a>.  I'm always excited to meet new people, share ideas, and keep growing as a developer. 
           </p>
         </div>
 
