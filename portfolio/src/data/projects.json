@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "Personal Portfolio Website",
+            "description": "Built a full ETL pipeline and XGBoost forecasting models to analyze machine-generated JSON data from Azure Databricks. Created Power BI dashboards to visualize trends and pipeline metrics. ",
+            "technologies": ["Python", "Pandas", "Matplotlib", "XGBoost", "Power BI", "JSON", "Databricks"],
+            "tags": ["Data Engineering", "Machine Learning", "Power BI", "ETL Pipeline"],
+            "links": {
+            "github": ""
+            }
+        },
+        {
+            "id": 2,
+            "name": "Personal Portfolio Website",
+            "description": "My personal portfolio website built with React and Tailwind CSS to showcase my projects and skills.",
+            "technologies": ["React", "Tailwind CSS", "JavaScript"],
+            "tags": ["React", "Tailwind CSS", "JavaScript", "Web App"],
+            "links": {
+            "github": "https://github.com/Jeffrey-Anderson392/jeffrey-portfolio"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Stats Overflow",
+            "description": "built a Django sports analytics web app using  to deliver real-time stats for professional sports and Valorant esports, including backend logic to ingest scraped data into a SQLite database for dynamic updates..",
+            "technologies": ["Django", "Bootstrap", "Python"],
+            "tags": ["Django", "Bootstrap", "Python", "Web App"],
+            "links": {
+            "github": "https://github.com/Jeffrey-Anderson392/Stats-Overflow"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Java Chat Server",
+            "description": "",
+            "technologies": ["Java"],
+            "tags": [""],
+            "links": {
+            "github": ""
+            }
+        }
+    ]
+}
