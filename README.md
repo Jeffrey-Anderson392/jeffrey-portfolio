@@ -1,2 +1,2 @@
 # jeffrey-portfolio
-Personal portfolio website built using React, and Tailwind CSS
+Personal portfolio website built using ReactJS, and Tailwind CSS
