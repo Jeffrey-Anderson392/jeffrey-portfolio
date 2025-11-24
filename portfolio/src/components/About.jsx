@@ -12,7 +12,7 @@ const About = () => {
         {/* paragraph section about me */}
         <div className="text-lg leading-relaxed">
           <p class="mb-4"> 
-            Hello! I am Jeffrey and I'm a passionate developer with a genuine love for coding, data, and technology. I got into programming my freshman year when I decided to major in Computer Science. I am very happy I made that choice! 
+            Hello! I'm Jeffrey, a senior at NDSU, and I'm a passionate developer with a genuine love for coding, data, and technology. I got into programming my freshman year when I decided to major in Computer Science. I am very happy I made that choice! 
             Since then, I've worked on a mix of software development and data-focused projects. I have mostly worked on web apps, data engineering projects, and anything that lets me build something cool and useful while learning along the way. 
           </p> 
           <p class="mb-4"> 
