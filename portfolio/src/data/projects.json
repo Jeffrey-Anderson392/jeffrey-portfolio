@@ -23,7 +23,7 @@
         {
             "id": 3,
             "name": "Stats Overflow",
-            "description": "built a Django sports analytics web app using  to deliver real-time stats for professional sports and Valorant esports, including backend logic to ingest scraped data into a SQLite database for updates.",
+            "description": "Built a Django sports analytics web app using  to deliver real-time stats for professional sports and Valorant esports, including backend logic to ingest scraped data into a SQLite database for updates.",
             "technologies": ["Django", "Bootstrap", "Python", "SQLite"],
             "tags": ["Django", "Bootstrap", "Python", "Web App"],
             "links": {
