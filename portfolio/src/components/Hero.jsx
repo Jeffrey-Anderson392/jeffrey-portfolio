@@ -47,7 +47,8 @@ const Hero = () => {
   return (
     <div id="home" className='p-20 flex flex-col mt-20 space-y-6 text-center text-blue-100 font-plus-jakarta-sans'>
         <div className="text-2xl justify-center">I am Jeffrey Anderson</div>
-        <div className="text-3xl">{currentText}</div>
+        {/* Typing section*/}
+        <div className="text-3xl">{currentText}</div> 
     </div>
   )
 }
