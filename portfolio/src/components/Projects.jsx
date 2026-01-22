@@ -17,7 +17,7 @@ const Projects = () => {
                 
                 {projectArray.map((project) => (
                     // The essential unique key={...}
-                    <div key={project.id} className="bg-slate-700 rounded-xl p-6 shadow-xl transition-transform hover:scale-[1.02] hover:shadow-2xl shadow-black/100">
+                    <div key={project.id} className="bg-slate-700 rounded-xl p-6 shadow-xl transition-transform hover:scale-[1.02] hover:shadow-2xl shadow-black">
                         {/* Tags as small pills, rendered via a loop */}
                         <div className="flex flex-wrap gap-2 mb-4 justify-center">
                             {project.tags.map((tag, index) => (
@@ -37,19 +37,28 @@ const Projects = () => {
                             {project.description}
                         </p>
 
-                        {/* Technologies (Secondary Text) */}
+                        {/* Technologies */}
                         <div className="mt-6 pt-4 border-t border-slate-600">
                             <span className="text-sm font-medium text-slate-400">
                                 Tech Stack: {project.technologies.join(' / ')}
                             </span>
                         </div>
 
-                        {/* Github Link */}
-                        {project.links.github && (
-                            <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium">
-                                <FaGithub /> View on GitHub
-                            </a>
-                        )}
+                        {/* Link */}
+                        {project.links && (
+    <div className="flex flex-wrap gap-4">
+        {project.links.website && (
+            <a href={project.links.website} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium mt-4">
+                View Project
+            </a>
+        )}
+        {project.links.github && (
+            <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium">
+                <FaGithub /> View on GitHub
+            </a>
+        )}
+    </div>
+)}
                     </div>
                 ))}
             </div>

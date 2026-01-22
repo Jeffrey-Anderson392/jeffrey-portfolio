@@ -2,12 +2,12 @@
     "projects": [
         {
             "id": 1,
-            "name": "Machine Data Projection and Visualization",
+            "name": "Aldevron Machine Maintenance",
             "description": "Built a full ETL pipeline and XGBoost forecasting models to analyze machine-generated JSON data from Azure Databricks. Created Power BI dashboards to visualize trends and pipeline metrics.",
             "technologies": ["Python", "Pandas", "Matplotlib", "XGBoost", "Power BI", "JSON", "Databricks", "SQLite"],
-            "tags": ["Data Engineering", "Machine Learning", "Power BI", "ETL Pipeline"],
+            "tags": ["Data Engineering", "Machine Learning", "Power BI", "ETL Pipeline", "Capstone"],
             "links": {
-            "github": ""
+            "website": "https://www.ndsu.edu/computer-science/programs/capstone-program/2025-projects#:~:text=Expo%20Poster%202025-,Aldevron,-Aldevron%20Machine%20Maintenance"
             }
         },
         {
@@ -21,7 +21,17 @@
             }
         },
         {
-            "id": 3,
+            "id":3,
+            "name":"Car Data Engineering Pipeline",
+            "description": "Developed an end-to-end ETL data engineering pipeline to analyze data on cars and their prices. Ingested data from kaggle and EPA APIs, transformed it using PySpark in Azure Databricks, and visualized insights with Power BI dashboards.",
+            "technologies": ["Python", "Pandas", "PySpark", "Azure", "Databricks", "Power BI", "JSON"],
+            "tags": ["Data Engineering", "Power BI", "ETL Pipeline", "Azure", "Databricks"],
+            "links": {
+            "github": "https://github.com/Jeffrey-Anderson392/car-data-pipeline"
+            }
+        },
+        {
+            "id": 4,
             "name": "Stats Overflow",
             "description": "Built a Django sports analytics web app using  to deliver real-time stats for professional sports and Valorant esports, including backend logic to ingest scraped data into a SQLite database for updates.",
             "technologies": ["Django", "Bootstrap", "Python", "SQLite"],
@@ -31,7 +41,7 @@
             }
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Java Chat Server",
             "description": "Locally hosted multi-client TCP-based chat server using Java Sockets for communication between clients and server.",
             "technologies": ["Java", "Sockets"],
