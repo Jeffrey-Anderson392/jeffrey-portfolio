@@ -1,6 +1,6 @@
 import React from 'react'
 import projects from '../data/projects.json';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaGlobe} from 'react-icons/fa';
 
 const Projects = () => {
 
@@ -46,19 +46,19 @@ const Projects = () => {
 
                         {/* Link */}
                         {project.links && (
-    <div className="flex flex-wrap gap-4">
-        {project.links.website && (
-            <a href={project.links.website} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium mt-4">
-                View Project
-            </a>
-        )}
-        {project.links.github && (
-            <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium">
-                <FaGithub /> View on GitHub
-            </a>
-        )}
-    </div>
-)}
+                        <div className="flex flex-wrap gap-4">
+                            {project.links.website && (
+                                <a href={project.links.website} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium mt-4">
+                                    <FaGlobe /> View Project
+                                </a>
+                            )}
+                            {project.links.github && (
+                                <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium">
+                                    <FaGithub /> View on GitHub
+                                </a>
+                            )}
+                        </div>
+                    )}
                     </div>
                 ))}
             </div>
