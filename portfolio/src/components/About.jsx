@@ -1,4 +1,5 @@
 import React from 'react'
+import MyPhoto from '../assets/PhotoOfMe.jpg';
 
 const About = () => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
         {/* Image from the public folder */}
         <div className="flex justify-center md:justify-end">
           <img
-            src="/images/PhotoOfMe.jpg"
+            src={MyPhoto}
             alt="Photo of Me"
             className="rounded-xl shadow-lg w-96 h-88 object-cover"
           />
